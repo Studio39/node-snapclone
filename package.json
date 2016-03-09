@@ -1,0 +1,23 @@
+{
+  "name": "node-snapclone",
+  "version": "1.0.0",
+  "description": "A snapchat clone created by Studio39 using the Node JS framework.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Studio39/node-snapclone.git"
+  },
+  "author": "Studio39",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Studio39/node-snapclone/issues"
+  },
+  "homepage": "https://github.com/Studio39/node-snapclone",
+  "dependencies": {
+        "express3-handlebars": "latest",
+        "socket.io": "latest"
+  }
+}

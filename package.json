@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Studio39/node-snapclone",
   "dependencies": {
-        "express3-handlebars": "latest",
+        "express": "latest",
         "socket.io": "latest"
   }
 }

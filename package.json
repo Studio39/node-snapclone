@@ -13,5 +13,23 @@
     "jade": "~1.9.1",
     "morgan": "~1.5.1",
     "serve-favicon": "~2.2.0"
-  }
+  },
+  "description": "Studio 39's Snapchat Clone written in Node JS",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Studio39/node-snapclone.git"
+  },
+  "keywords": [
+    "node",
+    "snapchat",
+    "handlebars"
+  ],
+  "author": "Studio39",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Studio39/node-snapclone/issues"
+  },
+  "homepage": "https://github.com/Studio39/node-snapclone#readme"
 }

@@ -18,7 +18,20 @@ This should install all the dependencies for the project, note you'll need npm i
 Now you can run the app using
 
 ```bash
-node app.js
+node bin/www
 ```
 
 If you have nodemon it's helpful to use that as every time you make changes to a file the server is auto restarted.
+
+Install nodemon by writing in command line
+
+```bash
+npm install nodemon -g
+```
+
+now with nodemon you can start the server with:
+
+```bash
+nodemon bin/www
+```
+

@@ -1,23 +1,35 @@
 {
   "name": "node-snapclone",
-  "version": "1.0.0",
-  "description": "A snapchat clone created by Studio39 using the Node JS framework.",
-  "main": "app.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
+  "dependencies": {
+    "body-parser": "~1.10.2",
+    "cookie-parser": "~1.3.3",
+    "debug": "~2.1.1",
+    "express": "~4.11.1",
+    "jade": "~1.9.1",
+    "morgan": "~1.5.1",
+    "serve-favicon": "~2.2.0"
+  },
+  "description": "Studio 39's Snapchat Clone written in Node JS",
+  "main": "app.js",
+  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/Studio39/node-snapclone.git"
+    "url": "git+https://github.com/Studio39/node-snapclone.git"
   },
+  "keywords": [
+    "node",
+    "snapchat",
+    "handlebars"
+  ],
   "author": "Studio39",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Studio39/node-snapclone/issues"
   },
-  "homepage": "https://github.com/Studio39/node-snapclone",
-  "dependencies": {
-        "express": "latest",
-        "socket.io": "latest"
-  }
+  "homepage": "https://github.com/Studio39/node-snapclone#readme"
 }
